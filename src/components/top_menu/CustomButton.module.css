@@ -1,0 +1,30 @@
+.custom_button {
+  background-color: #454548;
+  border: none;
+  margin-right: 7px;
+  color: white;
+  padding: 3px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 30px;
+  margin-bottom: 5px;
+}
+
+.custom_button:hover {
+  opacity: 0.5;
+}
+
+.custom_button_name {
+  font-size: 15px;
+}
+
+.custom_button_on {
+  margin-left: 4px;
+  font-size: 25px;
+  color: #7d7d7e;
+}
+
+.active {
+  color: rgba(28, 197, 28, 0.897);
+}

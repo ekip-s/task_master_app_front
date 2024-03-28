@@ -1,0 +1,16 @@
+.logo {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 4px;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.select_menu {
+  align-self: self-end;
+  margin-left: 10px;
+  display: flex;
+}

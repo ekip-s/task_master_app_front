@@ -1,0 +1,20 @@
+.itemSelector {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin;
+  scrollbar-color: #333333 #565658;
+  margin-top: 10px;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #eeeeee;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #333333;
+  }
+}

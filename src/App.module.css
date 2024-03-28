@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #373739;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  box-shadow: 1px 2px 5px #636364;
+}
+
+.main,
+html,
+body {
+  background-color: #565658;
+  height: 100%;
+}
+
+.main .mainsection {
+  flex-grow: 1;
+  background-color: #565658;
+}
