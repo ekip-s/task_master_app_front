@@ -1,10 +1,8 @@
 import { Fragment, useState } from "react";
 import style from "./App.module.css";
 import TopMenu from "./components/top_menu/TopMenu";
-import SpaceSelector from "./components/tasks_selector/SpaceSelector";
-import SpaceList from "./components/tasks_selector/SpaceList";
+import SpaceSelectorArr from "./components/tasks_selector/SpaceSelectorArr";
 import SelectorReverse from "./components/tasks_selector_reverse/SelectorReverse";
-import NewTaskButton from "./components/tasks_selector/NewTaskButton";
 
 function App() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -23,12 +21,7 @@ function App() {
       <main className={style.main}>
         <section className={style["mainsection"]}>
           {isOpenMenu && ( //переключение по кнопке
-            <Fragment>
-              <NewTaskButton name="Опять Работа" />
-              <SpaceSelector>
-                <SpaceList />
-              </SpaceSelector>
-            </Fragment>
+            <SpaceSelectorArr />
           )}
           <section className={style.bodyinfo}>
             <SelectorReverse />
