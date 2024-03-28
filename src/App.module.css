@@ -23,3 +23,7 @@ body {
   flex-grow: 1;
   background-color: #565658;
 }
+
+.bodyinfo {
+  display: flex;
+}

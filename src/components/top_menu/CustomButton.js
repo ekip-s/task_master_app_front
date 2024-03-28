@@ -6,6 +6,9 @@ const CustomButton = (props) => {
 
   const OnHandler = () => {
     setIsActive(!isActive);
+    if (props.name === "Open Menu") {
+      props.onOpenMenu();
+    }
   };
   return (
     <div className={styles["custom_button"]} onClick={OnHandler}>

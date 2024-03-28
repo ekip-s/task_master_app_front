@@ -2,12 +2,12 @@ import { Fragment } from "react";
 import styles from "./TopMenu.module.css";
 import CustomButton from "./CustomButton";
 
-const TopMenu = () => {
+const TopMenu = (props) => {
   return (
     <Fragment>
       <h2 className={styles.logo}>Tasks Master</h2>
       <div className={styles["select_menu"]}>
-        <CustomButton name="Open Menu" />
+        <CustomButton onOpenMenu={props.onOpenMenu} name="Open Menu" />
         <CustomButton name="Show Hidden" />
       </div>
     </Fragment>
